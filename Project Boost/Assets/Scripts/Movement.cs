@@ -47,12 +47,12 @@ public class Movement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
-            Debug.Log("Rotating Left");
+            // Debug.Log("Rotating Left");
             ApplyRotation(rotationThrust);
         }
         else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
         {
-            Debug.Log("Rotating Right");
+            // Debug.Log("Rotating Right");
             ApplyRotation(-rotationThrust);
         }
     }
